@@ -1,0 +1,203 @@
+.Projects{
+  height: 260vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+ h3{
+    padding-top: 2%;
+  }
+  h1{
+    padding-top: 2%;
+  }
+
+span{
+  color: #58afd1;
+}
+
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .open-guillemets{
+    position: absolute;
+    left: 30%;
+    width: 3%;
+  }
+
+  .close-guillemets{
+    position: absolute;
+    width: 3%;
+    right: 20%;
+  }
+
+    .open-guillemets2{
+    position: absolute;
+    left: 5%;
+    width: 3%;
+  }
+
+  .close-guillemets2{
+    position: absolute;
+    width: 3%;
+    right: 40%;
+  }
+
+.wrapper-project{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+  .img{
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 300px;
+    width: 300px;
+    background-image: url('./assets/testimg.jpg') ;
+    border-radius: 50%;
+    background-position: bottom;
+  }
+
+  .text-explain{
+    margin-left: 10%;
+    font-size: 24px;
+    width: 50%;
+    align-self: center;
+  }
+
+.wrapper-project2{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+  .text-explain2{
+    margin-left: 10%;
+    font-size: 24px;
+    width: 50%;
+    align-self: center;
+  }
+
+  .img2{
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 300px;
+    width: 300px;
+    background-image: url('./assets/sqal.jpg') ;
+    border-radius: 50%;
+    background-position: center;
+  }
+
+    .img3{
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 300px;
+    width: 300px;
+    background-image: url('./assets/desk.jpg') ;
+    border-radius: 50%;
+    background-position: center;
+  }
+
+  .img4{
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 300px;
+    width: 300px;
+    background-image: url('./assets/hack.jpg') ;
+    border-radius: 50%;
+    background-position: center;
+  }
+
+  
+  @media screen and (min-width : 768px) and (max-width : 1366px) {
+    height: 170vh;
+
+.title{
+    padding-top: 15%;
+  }
+
+   .open-guillemets{
+    left: 35%;
+  }
+
+
+
+.close-guillemets2{
+    right: 50%;
+  }
+
+.img, .img2, .img3, .img4{
+  width: 200px;
+  height: 200px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.wrapper-project, .wrapper-project2{
+  margin-top: 100px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+  justify-content: center;
+  height: auto;
+    text-align: center;
+  .title{
+    margin-left: 10px;
+  }
+  .wrapper-project{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper-project2{
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .open-guillemets{
+    display: none;
+  }
+
+  .close-guillemets{
+    display: none;
+  }
+
+    .open-guillemets2{
+    display: none;
+  }
+
+  .close-guillemets2{
+    display: none;
+  }
+  .img, .img2, .img3, .img4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 20%;
+  }
+  
+  .text-explain, .text-explain2{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  a{
+    display:flex;
+    justify-content: center;
+  }
+}
+
+}

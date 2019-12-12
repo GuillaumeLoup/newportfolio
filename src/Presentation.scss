@@ -1,0 +1,89 @@
+.Presentation{
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+
+span{
+  color: #58afd1;
+}
+
+  h3{
+    padding-top: 2%;
+  }
+  h1{
+    padding-top: 2%;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+  }
+  img{
+    width: 15%;
+    padding: 2%;
+  }
+  .logos1{
+    display: flex;
+    flex-direction: row;
+  }
+  .logos2{
+    display: flex;
+    flex-direction: row;
+  }
+  .wrapper-logos{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+  }
+
+  .container-para{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wrapper-text{
+    padding-top: 10%;
+    width: 40%;
+    align-self: flex-end;
+    font-size: 26px;
+
+  }
+
+  @media screen and (min-width : 768px) and (max-width : 1024px) {
+  height: 40vh;
+}
+
+@media screen and (max-width: 480px) {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .wrapper-logos{
+    width: 100%;
+   text-align: center
+  }
+
+  .title{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+  }
+
+  .container-para{
+    display: block;
+  }
+
+  .wrapper-text{
+    width: 80%;
+    margin-left: 10%;
+    align-self: flex-start;
+    font-size: 22px;
+  }
+}
+}

@@ -1,0 +1,52 @@
+.Contact{
+   height: 40vh;
+   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+   h3{
+    padding-top: 2%;
+  }
+  h1{
+    padding-top: 2%;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+  .logos{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .phone{
+    margin-left: 100px;
+  }
+  .mail{
+    margin-right: 100px;
+  }
+
+  @media screen and (min-width : 768px) and (max-width : 1024px) {
+  height: 30vh;
+}
+
+@media screen and (max-width: 480px) {
+  height: 50vh;
+.logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .phone{
+    text-align: center;
+    margin-left: 0px;
+  }
+  .mail{
+    margin-right: 0px;
+  }
+
+}
+ 
+}
