@@ -22,7 +22,6 @@ class Home extends Component {
   let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-console.log(now, countDownDate, distance, days, hours, minutes, seconds)
  this.setState({timeValue: `${days}jours ${hours}heures ${minutes}minutes  ${seconds}secondes` })
 }.bind(this), 1000);
 
