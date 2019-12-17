@@ -195,6 +195,20 @@ p{
     justify-content: center;
     align-items: center;
   }
+
+  .wrapper-project2-white{
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper-project-white{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   .open-guillemets{
     display: none;
