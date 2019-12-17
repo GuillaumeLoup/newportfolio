@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import open from './assets/open.png';
 import close from './assets/close.png';
-import opennoir from './assets/opennoir.png';
+import opennoir from './assets/new.png';
 import closenoir from './assets/closenoir.png';
 import './Projects.scss';
 
@@ -15,7 +15,7 @@ class Projects extends Component {
           <h1>Présentation des <span>Projets</span> réalisés</h1>
          
           </div>
-           <div className="wrapper-project">
+           <div className={backgroundColor ? "wrapper-project" : "wrapper-project-white" }>
           <div className="img">
           </div>
           <div className="text-explain">
@@ -32,7 +32,7 @@ class Projects extends Component {
                 <img className="close-guillemets" src={!backgroundColor ? close : closenoir} alt="close" />
                  </div>
                  </div>
-                 <div className="wrapper-project2">
+                 <div className={backgroundColor ? "wrapper-project2" : "wrapper-project2-white" }>
           
           <div className="text-explain2">
           <img className="open-guillemets2" src={!backgroundColor ? open: opennoir} alt="open" />
@@ -47,7 +47,7 @@ class Projects extends Component {
           </div>
                  </div>
 
-                  <div className="wrapper-project">
+                  <div className={backgroundColor ? "wrapper-project" : "wrapper-project-white" }>
           <div className="img3">
           </div>
           <div className="text-explain">
@@ -62,7 +62,7 @@ class Projects extends Component {
                  <img className="close-guillemets" src={!backgroundColor ? close : closenoir} alt="close" />
                  </div>
                  </div>
-          <div className="wrapper-project2">
+          <div className={backgroundColor ? "wrapper-project2" : "wrapper-project2-white" }>
           
           <div className="text-explain2">
           <img className="open-guillemets2" src={!backgroundColor ? open : opennoir} alt="open" />
@@ -70,7 +70,7 @@ class Projects extends Component {
            avec en bonus un easter-egg caché dans celui-ci. J'ai pris le parti
             de concevoir un site internet regroupant des cartes à collectionner
              à retrouver dans les chocolats de nos partenaires (Kinder, Milka, etc...).
-              spoile: cliquez 21 fois sur l'oeuf vert situé en haut de page.
+              spoiler: cliquez 21 fois sur l'oeuf vert situé en haut de page.
                Ce site est consultable via ce lien:</p>
              <a href="https://dazzling-shannon-cd83bf.netlify.com/" rel="noopener noreferrer" target="_blank"> lien vers le site</a>
                  <img className="close-guillemets2" src={!backgroundColor ? close : closenoir} alt="close" />

@@ -19,18 +19,19 @@ span{
   .title{
     display: flex;
     justify-content: center;
+    margin-bottom: 5%;
   }
 
   .open-guillemets{
     position: absolute;
-    left: 30%;
+    left: 35%;
     width: 3%;
   }
 
   .close-guillemets{
     position: absolute;
     width: 3%;
-    right: 20%;
+    right: 10%;
   }
 
     .open-guillemets2{
@@ -46,13 +47,30 @@ span{
   }
 
 .wrapper-project{
+  background: rgb(195, 195, 195);
+  padding-top: 3%;
+  padding-bottom: 3%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
+.wrapper-project-white{
+  background: rgb(116, 116, 116);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+a{
+  font-weight: bold;
+}
+
   .img{
-    margin-top: 5%;
+    -webkit-box-shadow: 3px 3px 12px 8px #B5B5B5;
+    box-shadow: 3px 3px 12px 8px #B5B5B5;
     margin-left: 10%;
     height: 300px;
     width: 300px;
@@ -69,7 +87,16 @@ span{
   }
 
 .wrapper-project2{
-  margin-top: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.wrapper-project2-white{
+  padding-top: 3%;
+  padding-bottom: 3%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -83,7 +110,8 @@ span{
   }
 
   .img2{
-    margin-top: 5%;
+    -webkit-box-shadow: 3px 3px 12px 8px #B5B5B5;
+    box-shadow: 3px 3px 12px 8px #B5B5B5;
     margin-left: 10%;
     height: 300px;
     width: 300px;
@@ -93,7 +121,8 @@ span{
   }
 
     .img3{
-    margin-top: 5%;
+    -webkit-box-shadow: 3px 3px 12px 8px #B5B5B5;
+    box-shadow: 3px 3px 12px 8px #B5B5B5;
     margin-left: 10%;
     height: 300px;
     width: 300px;
@@ -103,7 +132,8 @@ span{
   }
 
   .img4{
-    margin-top: 5%;
+    -webkit-box-shadow: 3px 3px 12px 8px #B5B5B5;
+    box-shadow: 3px 3px 12px 8px #B5B5B5;
     margin-left: 10%;
     height: 300px;
     width: 300px;
