@@ -38,7 +38,7 @@ this.getTime()
       <h2>Développeur Web JavaScript ReactJs NodeJs</h2>
   <p> depuis <span>{this.state.timeValue}</span></p>
       <div className="gif-scroll">
-      <img src={this.props.backgroundColor ? whiteScrolldown : scrolldown} alt="scroll down" />
+      <a href="#presentation"><img src={this.props.backgroundColor ? whiteScrolldown : scrolldown} alt="scroll down" /></a>
       </div>
       </div>
     )

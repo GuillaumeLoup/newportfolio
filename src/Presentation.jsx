@@ -12,7 +12,7 @@ import mysql from './assets/mysql.png';
 class Presentation extends Component {
   render() {
     return(
-      <div className="Presentation">
+      <div className="Presentation" id="presentation">
       <div className="title">
       <h3>01.</h3>
       <h1>Pésentation des <span>outils</span> et <span>langages</span> utilisés</h1>
