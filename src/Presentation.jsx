@@ -15,7 +15,7 @@ class Presentation extends Component {
       <div className="Presentation" id="presentation">
       <div className="title">
       <h3>01.</h3>
-      <h1>Pésentation des <span>outils</span> et <span>langages</span> utilisés</h1>
+      <h1>Présentation des <span>outils</span> et <span>langages</span> utilisés</h1>
       </div>
       <div className="container-para">
       <div className="wrapper-logos">
