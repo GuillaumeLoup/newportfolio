@@ -131,6 +131,17 @@ a{
     background-position: center;
   }
 
+      .img5{
+    -webkit-box-shadow: 3px 3px 12px 8px #B5B5B5;
+    box-shadow: 3px 3px 12px 8px #B5B5B5;
+    margin-left: 10%;
+    height: 300px;
+    width: 300px;
+    background-image: url('./assets/ligue1.jpg') ;
+    border-radius: 50%;
+    background-position: center;
+  }
+
   .img4{
     -webkit-box-shadow: 3px 3px 12px 8px #B5B5B5;
     box-shadow: 3px 3px 12px 8px #B5B5B5;
@@ -160,7 +171,7 @@ a{
     right: 50%;
   }
 
-.img, .img2, .img3, .img4{
+.img, .img2, .img3, .img4, .img5{
   width: 200px;
   height: 200px;
 }
@@ -225,7 +236,7 @@ p{
   .close-guillemets2{
     display: none;
   }
-  .img, .img2, .img3, .img4{
+  .img, .img2, .img3, .img4, .img5{
     display: flex;
     justify-content: center;
     align-items: center;
